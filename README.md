@@ -1,0 +1,1 @@
+created a simple restaurant app with basic functionalities like register page, login page, menu page, with express js, mongoDB and handlebars as a template to create a server side rendering app. 

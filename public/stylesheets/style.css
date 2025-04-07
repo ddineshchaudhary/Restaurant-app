@@ -1,0 +1,79 @@
+body {
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  color: white;
+}
+
+a {
+  color: #00B7FF;
+}
+
+body {
+  background-color: #f8f9fa; /* Light background color */
+}
+
+h1 {
+  margin-bottom: 20px; /* Space below the heading */
+}
+
+
+
+.bg-custom-home {
+  height: 100vh; /* Adjust height as needed */
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),url('../images/pexels-asadphoto-1449773.jpg');
+  background-size: cover; /* Cover the entire div */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Prevent the image from repeating */
+}
+
+
+.bg-custom-register {
+  height: 100vh; /* Adjust height as needed */
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url('../images/pexels-pixabay-326281.jpg');
+  background-size: cover; /* Cover the entire div */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Prevent the image from repeating */
+}
+
+.bg-register-pad {
+  padding-left: 30rem;
+}
+
+.bg-custom-login {
+  height: 100vh; /* Adjust height as needed */
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url('../images/login.jpg');
+  background-size: cover; /* Cover the entire div */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Prevent the image from repeating */
+}
+
+.bg-login-pad {
+  padding-right: 30rem;
+}
+
+.bg-custom-menu {
+  background-color: #f8f9fa; /* Light background color */
+  border-radius: 8px; /* Rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+.card {
+  transition: transform 0.2s; /* Smooth transition for hover effect */
+  width: 100%;
+}
+
+.card:hover {
+  transform: scale(1.05); /* Slightly enlarge the card on hover */
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Increase shadow on hover */
+}
+
+.card-title {
+  font-weight: bold; /* Make the title bold */
+}
+
+.card-text {
+  color: #6c757d; /* Use a muted color for description */
+}
+
+.container {
+  max-width: 1600px; /* Limit the width of the container */
+}

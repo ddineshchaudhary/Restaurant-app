@@ -1,0 +1,18 @@
+<div class="container py-5 bg-custom-menu">
+        <h1 class="text-center mb-4">Hi, {{username}}</h1>
+        <p class="text-center mb-5">Here is your Menu and let us know what would you like to have.</p>
+
+        <div class="row">
+            {{#each menuItems}}
+            <div class="col-md-4">
+                <div class="card mb-4">
+                    <div class="card-body">
+                        <h5 class="card-title">{{this.name}}</h5>
+                        <p class="card-text">{{this.description}}</p>
+                        <p class="card-text"><strong>{{this.price}}</strong></p>
+                    </div>
+                </div>
+            </div>
+            {{/each}}
+        </div>
+    </div>
