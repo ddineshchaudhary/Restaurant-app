@@ -33,7 +33,7 @@ app.use(express.static(path.join(__dirname, 'public')));
 //mycode
 app.use(cors());
 app.use(session({
-  secret: `${secretkey}`, // Change this to a strong secret
+  secret: `${process.env.secretkey}`, // Change this to a strong secret
   resave: false,
   saveUninitialized: true,
   cookie: { secure: false } // Set to true if using HTTPS
